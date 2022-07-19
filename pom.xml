@@ -17,9 +17,8 @@
         <!-- Encoding configuration -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <sonar.organization>esposito-matteo190320202155</sonar.organization>
-        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-        <sonar.projectKey>Esposito-Matteo_JTC</sonar.projectKey>
+         <sonar.organization>esposito-matteo190320202155</sonar.organization>
+         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     </properties>
 
     <build>
