@@ -35,4 +35,4 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: |
               export MAVEN_OPTS="-Xmx4g -XX:ReservedCodeCacheSize=1024m -Dorg.slf4j.simpleLogger.defaultLogLevel=WARN" 
-              mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=Esposito-Matteo_JTC
+              mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar
